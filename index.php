@@ -13,13 +13,13 @@
 //   $content = json_decode($content,true);
 //    print_r($content);
     $massiv = array(
-    "1" => "Post_1",
-    "2" => "Post_2",
-    "3" => "Post_3",
+    1 => "Post_1",
+    2 => "Post_2",
+    3 => "Post_3",
 );
     $id = 1;
     while($id<4){
-print_r($massiv[$id]);
+echo($massiv[$id]);
 $id++;
 };
     ?>
