@@ -1,14 +1,5 @@
 	{
-		  "posts" :[
-    {	  
-   "Login":"Saitama",
-   "Post":"Php это Круто",
-   "id_post":"1" 
-    },
-    {
-   "Login":"Chez",
-   "Post":"Всякая полезная фигня)",
-   "id_post":"2" 
-    }
-   ]
+    "Мысли ветра" : "Post_1",
+    "Post_name2" : "Post_2",
+    "Post_name3" : "Post_3"
 }
