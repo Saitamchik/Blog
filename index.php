@@ -23,8 +23,8 @@
     3 => "Post_3",
 );
     $id = 1;
-    foreach($massiv as $value){
-echo "<h2>".key($massiv)."<h2 />";
+    foreach($massiv as $key => $value){
+echo "<h2>".$key."<h2 />";
 echo "<p>".$value."<p />"."<br />";
 $id++;
 };
