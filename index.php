@@ -12,10 +12,9 @@
 <body>
   <?php  foreach($content as $key => $value): ?>
 
-  <?php echo "<h2>".$key."<h2 />";
-        echo "<p>".$value."<p />"."<br />";
-        ?>
-  <?php endforeach; 
+  <h2><?php echo $key;?><h2 />
+  <p><?php echo $value;?><p /><br />
+   <?php endforeach; 
 ?>
 <center> <a href="https://github.com/Saitamchik/Blog">Репозиторий</a></center>
 </body>
