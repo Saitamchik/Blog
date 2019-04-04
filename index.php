@@ -4,12 +4,17 @@
    $content = json_decode($content,true);
     $id = 1;
     ?>
-<html>
+<!DOCTYPE html>
 <head>
-	<center><h2>MLG Blog</h2></center>
-<br/><br/>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Blog</title>
 </head>
 <body>
+    <div class="intro">
+      <div class="conteiner">
+    	<h1>MLG Blog</h1>
+    
   <?php  foreach($content as $key => $value): ?>
 
   <h2><?php echo $key;?><h2 />
@@ -17,5 +22,7 @@
    <?php endforeach; 
 ?>
 <center> <a href="https://github.com/Saitamchik/Blog">Репозиторий</a></center>
+            </div>
+    </div>
 </body>
 </html>
