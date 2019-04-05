@@ -1,7 +1,7 @@
 	<?php
     $mass = "Mass.json";
     $content = file_get_contents($mass);
-   $content = json_decode($content,true);
+    $content = json_decode($content,true);
     $id = 1;
     ?>
 
@@ -125,12 +125,12 @@
                                 <div class="col-md-12 blog-post">
                                     <div class="post-title">
 
-                                    <h1><?php echo $key;?></h1>
+                                    <h1><?php echo nl2br($key);?></h1>
                                     </div>  
                                     <div class="post-info">
                                     	<span>April 5, 2019 / by <a href="#" target="_blank">Мысли ветра</a></span>
                                     </div>  
-                                    <p><p><?php echo $value;?><p /><br /></p>
+                                    <p><p><?php echo nl2br($value);?><p /><br /></p>
                                 </div>
                                 <!-- Blog Post End -->
                                 <?php  endforeach;?>
