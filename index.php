@@ -106,7 +106,6 @@
 
                              
                 
-                 
                  <!-- Blog Post (Right Sidebar) Start -->
                  <div class="col-md-9">
                     <div class="col-md-12 page-body">
@@ -121,23 +120,20 @@
                             
                             <div class="col-md-12 content-page">
                             	
-                                
+                     <?php  foreach($content as $key => $value): ?>
                                 <!-- Blog Post Start -->
                                 <div class="col-md-12 blog-post">
                                     <div class="post-title">
-                                        <?php  foreach($content as $key => $value): ?>
 
                                     <h1><?php echo $key;?></h1>
                                     </div>  
                                     <div class="post-info">
                                     	<span>April 5, 2019 / by <a href="#" target="_blank">Мысли ветра</a></span>
                                     </div>  
-                                    <p><p><?php echo $value; endforeach;?><p /><br /></p>
+                                    <p><p><?php echo $value;?><p /><br /></p>
                                 </div>
                                 <!-- Blog Post End -->
-                                
-                                
-                                
+                                <?php  endforeach;?>
                                
                                 
                                 <div class="col-md-12 text-center">
